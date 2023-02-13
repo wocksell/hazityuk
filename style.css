@@ -1,0 +1,33 @@
+p, li, h1, h2 {
+    color: #003399;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background: url(../3_Hazityuk/hatter.jpg);
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    left: -350px;
+}
+
+.wrapper .content {
+    background: #EEEECC;
+    width: 700px;
+    height: 700px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    left: 900px;
+}
+
+.kakas {
+    left: 600px;
+    position: absolute;
+}
